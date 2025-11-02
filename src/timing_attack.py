@@ -1,15 +1,3 @@
-
-# ---
-
-# # 6) Refined `timing_attack.py` (sanitized + documented)
-# Below is your “lighter” script, but upgraded with:
-
-# - **No leaked challenge details**: host/port **must** be provided via CLI (no defaults to your class host).
-# - **Docstrings & type hints**.
-# - **CLI** for resume/prefix options, sampling, etc.
-# - Clean, readable output.
-# - Still stdlib-only.
-
 # ```python
 #!/usr/bin/env python3
 """
