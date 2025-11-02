@@ -7,7 +7,12 @@ Usage: python timing_attack.py
 Tunable parameters are at the top of the file.
 """
 
-import socket, time, statistics, csv, sys, os
+import socket
+import time
+import statistics
+import csv
+import sys
+import os
 
 HOST = "" # TODO target host (empty for localhost)
 PORT = 8080 # TODO target port
