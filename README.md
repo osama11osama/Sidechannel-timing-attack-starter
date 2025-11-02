@@ -99,10 +99,9 @@ python timing_attack.py --host 127.0.0.1 --port 8080 --base-samples 16 --retest-
 
 ## Author / Bio
 
-**Your Name** — Security-minded software developer interested in side-channel attacks and defensive measures.  
+**Osama Altamar** — Security-minded software developer interested in side-channel attacks and defensive measures.  
 - Focus areas: Secure coding, reproducible measurement, and defensive engineering.  
-- GitHub: `https://github.com/YOUR-USERNAME` (optional)  
-- Email: your.email@example.com (optional)
+- GitHub: `https://github.com/osama11osama`
 
 ---
 
