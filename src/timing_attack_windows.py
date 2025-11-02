@@ -90,6 +90,9 @@ def safe_write_log(row):
 def main():
     found = ""  # known prefix unitl now L3AK3D
     print(f"Starting timing attack against {HOST}:{PORT}")
+    if HOST == "":
+        print("WARNING: HOST is empty (localhost). Set HOST variable to target host.")
+        return
     print(f"Charset length: {len(CHARSET)}; baseline samples per guess: {BASE_SAMPLES}")
     for pos in range(MAX_PASS_LEN):
         print(f"\n--- Position {pos+1} (prefix='{found}') ---")
@@ -165,3 +168,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nInterrupted by user.")
         sys.exit(0)
+    
